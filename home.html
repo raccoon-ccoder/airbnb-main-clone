@@ -21,7 +21,7 @@
 
     <header class="welcome-header">
         <div class="welcome-header__logo">
-            <img src="img/airbnb-logo-full.png" class="welcome-header__logo-img" />
+            <img src="img/airbnb-logo-white.png" class="welcome-header__logo-img" />
         </div>
 
         <div class="welcome-header__list">
@@ -40,7 +40,7 @@
 
         <div class="welcome-header__settings">
             <button class="welcome-header__btn">호스트 되기</button>
-            <button type="button" class="welcome-header__btn"><i class="fas fa-globe fa-lg"></i></button>
+            <button class="welcome-header__btn"><i class="fas fa-globe fa-lg"></i></button>
             <button class="welcome-header__btn">
                 <i class="fas fa-grip-lines fa-2x"></i>
                 <i class="fas fa-user-circle fa-2x"></i>
@@ -48,8 +48,31 @@
         </div>
     </header>
 
-    <div class="search">
+    <div class="search-div">
+        <form class="search-form">
+            <div class="search-form__input search-form__place">
+                <span class="search-form__title">위치</span>
+                <input type="text" placeholder="어디로 여행가세요?" />
+            </div>
 
+            <div class="search-form__input search-form__check-in">
+                <span class="search-form__title">체크인</span>
+                <input type="text" placeholder="날짜 입력"/>
+            </div>
+
+            <div class="search-form__input search-form__check-out">
+                <span class="search-form__title">체크아웃</span>
+                <input type="text" placeholder="날짜 입력" />
+            </div>
+
+            <div class="search-form__input search-form__number">
+                <span class="search-form__title">인원</span>
+                <input type="text" placeholder="게스트 추가" />
+                <button class="search-form__number-btn">
+                    <i class="fas fa-search fa-lg"></i>
+                </button>
+            </div>
+        </form>
     </div>
 
     <aside class="home-aside">
