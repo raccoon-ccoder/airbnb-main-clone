@@ -304,18 +304,18 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 30vw;
+    height: 28vw;
 }
 
 .home-location__box {
-    width: 23%;
+    width: 23.5%;
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .home-location__a {
-    display:  block;
+    display: block;
     width: 100%;
     height: 100%;
     color: white;
@@ -420,10 +420,113 @@
     left: 80px;
 }
 
+.home-footer {
+    padding: 0 var(--horizontal-space);
+    background-color: #f7f6f6;
+}
+
+.home-footer-list {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.home-footer__section {
+    width: 25%;
+    /* 뭔가 더 설정해야 할듯 */
+}
+
+.home-footer__title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.home-footer__li {
+    margin-bottom: 20px;
+}
+
+.home-footer__a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #201f1f;
+    text-decoration: none;
+}
+
+.home-footer__a:hover {
+    text-decoration: underline;
+}
+
+.home-footer-inc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--little-gray);
+    padding: 25px 0;
+    font-size: 14px;
+    color: #201f1f;
+    font-weight: 400;
+}
+
+.home-footer-inc__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-footer-policy {
+    margin-left: 5px;
+}
+
+.home-footer-policy__item {
+    display: inline-block;
+}
+
+.home-footer-policy__item::before {
+    content: "\00b7";
+    padding: 0 5px;
+}
+
+.home-footer__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-footer-language {
+    width: 210px;
+}
+
+.home-footer-language__btn {
+    margin-left: 15px;
+    border: none;
+    background-color: #f7f6f6;
+    cursor: pointer;
+}
+
+.home-footer-language__text {
+    font-weight: 500;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+.home-footer-icons {
+    width: 170px;
+    text-align: right;
+}
+
+.home-footer-icons__icon {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
 .privacy-box {
     padding: 0px var(--horizontal-space);
     position: fixed;
     bottom: 50px;
+    display: none;
 }
 
 .privacy {
