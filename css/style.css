@@ -1,5 +1,12 @@
 @import "reset.css";
 @import "variables.css";
 
+/* Components */
+@import "components/main-btn.css";
+
 /* Screen */
 @import "screen/home.css";
+
+.home-screen {
+    padding: 0 var(--horizontal-space);
+}

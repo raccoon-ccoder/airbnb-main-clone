@@ -1,0 +1,12 @@
+.home-main__btn {
+    padding: 16px 25px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.home-main__btn:hover {
+    background-color: #ebebeb;
+}
