@@ -437,7 +437,6 @@
 
 .home-footer__section {
     width: 25%;
-    /* 뭔가 더 설정해야 할듯 */
 }
 
 .home-footer__title {
@@ -568,6 +567,7 @@
     color: #515151;
     line-height: 18px;
     width: 80%;
+    word-break: keep-all;
 }
 
 .privacy-btn-box {

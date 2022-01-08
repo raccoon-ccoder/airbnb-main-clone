@@ -1,3 +1,212 @@
+@media screen and (min-width:744px) and (max-width:949px) {
+    .welcome-header {
+        padding: 0 var(--bigger-horizontal-space);
+    }
+
+    .welcome-header__btn:first-child,
+    .welcome-header__btn:nth-child(2) {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .search-div {
+        padding: 0 var(--bigger-horizontal-space);
+        box-sizing: border-box;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+    .search-form__input input {
+        width: 95px;
+        margin-left: 23px;
+        text-overflow: ellipsis;
+    }
+
+    .search-form__place {
+        width: 20%;
+    }
+
+    .search-form__title {
+        font-size: 13px;
+        font-weight: 700;
+        margin: 18px 0 6px 25px;
+    }
+
+    .search-form__check-in,
+    .search-form__check-out  {
+        width: 23%;
+    }
+
+    .search-form__number-btn {
+        right: 0px;
+    }
+
+    .home-aside {
+        padding: 0;
+    }
+
+    .home-aside__image {
+        border-radius: 0;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .home-aside__text {
+        font-size: 35px;
+        bottom: 140px;
+    }
+
+    .home-aside__btn {
+        width: 125px;
+        height: 50px;
+        bottom: 60px;
+        font-size: 16px;
+    }
+    .home-screen {
+        padding: 0 var(--bigger-horizontal-space);
+        overflow: hidden;
+    }
+
+    .home-screen__location {
+        margin: 10px 0 20px 0;
+    }
+
+    @keyframes slideLocation {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-35%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .home-location-content {
+        width: 135vw;
+        height: 43vw;
+    }
+
+    .home-location-content:hover{
+        animation: slideLocation 7s ease-in-out infinite;
+    }
+
+    .home-screen__title {
+        font-size: 27px;
+        padding-bottom: 25px;
+    }
+
+    .home-location__name {
+        font-size: 25px;
+        padding: 20px 0 10px 15px;
+    }
+
+    .home-location__distance {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .home-experiment__text {
+        font-size: 38px;
+        top: 30px;
+        left: 30px;
+    }
+
+    .home-main__btn {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .home-experiment__btn {
+        top: 125px;
+        left: 30px;
+    }
+
+    .home-screen__qna {
+        margin: 50px 0;
+    }
+
+    .home-qna__title {
+        top: 50px;
+        left: 50px;
+        font-size: 55px;
+    }
+
+    .home-qna__btn {
+        bottom: 40px;
+        left: 50px;
+    }
+
+    .home-footer {
+        padding: 0 var(--bigger-horizontal-space);
+    }
+
+    .home-footer-list {
+        padding: 10px 0 0 0;
+        flex-direction: column;
+    }
+
+    .home-footer__section {
+        width: 100%;
+        padding: 30px 0 15px 0;
+        border-bottom: 1px solid var(--little-gray);
+    }
+
+    .home-footer__section:last-child {
+        border-bottom: none;
+    }
+
+    .home-footer__title {
+        margin-bottom: 15px;
+    }
+
+    .home-footer__ul {
+        display: grid;
+        grid-template-columns: 8fr 7fr 7fr;
+    }
+
+    .home-footer__a {
+        font-size: 15px;
+        word-break: keep-all;
+    }
+
+    .home-footer-inc {
+        flex-direction: column-reverse;
+        font-size: 15px;
+    }
+
+    .home-footer__right {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .home-footer-language__text {
+        font-weight: 600;
+    }
+
+    .home-footer-icons {
+        margin-left: 30px;
+    }
+
+    .home-footer-inc__left {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-footer-title {
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .home-footer-policy__item:first-child:before {
+        content: none;
+    }
+}
+
 @media screen and (min-width:950px) and (max-width:1125px) {
     .welcome-header {
         padding: 0 var(--bigger-horizontal-space);
