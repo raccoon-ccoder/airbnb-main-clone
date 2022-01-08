@@ -110,6 +110,10 @@
     color: #717171;
 }
 
+.welcome-header__mobile-btn {
+    display: none;
+}
+
 .search-div {
     background-color: black;
     display: flex;
