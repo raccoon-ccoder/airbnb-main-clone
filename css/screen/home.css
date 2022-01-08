@@ -1,3 +1,7 @@
+.home-screen {
+    padding: 0 var(--biggest-horizontal-space);
+}
+
 .covid-alert {
     width: 100%;
     height: 50px;
@@ -246,7 +250,6 @@
 .home-aside {
     width: 100%;
     padding:0 75px 90px 75px;
-    padding-right: 75px;
     box-sizing: border-box;
     background-color: black;
     position: relative;
@@ -363,7 +366,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 50vw;
+    height: 56vw;
 }
 
 .home-experiment-box {
@@ -421,7 +424,7 @@
 }
 
 .home-footer {
-    padding: 0 var(--horizontal-space);
+    padding: 0 var(--biggest-horizontal-space);
     background-color: #f7f6f6;
 }
 
@@ -523,7 +526,7 @@
 }
 
 .privacy-box {
-    padding: 0px var(--horizontal-space);
+    padding: 0px var(--biggest-horizontal-spacehorizontal-space);
     position: fixed;
     bottom: 50px;
     display: none;

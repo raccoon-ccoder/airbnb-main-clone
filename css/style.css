@@ -7,6 +7,6 @@
 /* Screen */
 @import "screen/home.css";
 
-.home-screen {
-    padding: 0 var(--horizontal-space);
-}
+/* Media-query */
+@import "media-screen/home.css";
+
