@@ -98,9 +98,6 @@
     .home-location-content {
         width: 230vw;
         height: 73vw;
-    }
-
-    .home-location-content:hover{
         animation: slideLocation 7s ease-in-out infinite;
     }
 
@@ -348,9 +345,6 @@
     .home-location-content {
         width: 230vw;
         height: 73vw;
-    }
-
-    .home-location-content:hover{
         animation: slideLocation 7s ease-in-out infinite;
     }
 
@@ -520,9 +514,16 @@
         margin-left: 23px;
         text-overflow: ellipsis;
     }
+    .search-form__input {
+        padding-left: 10px;
+    }
 
     .search-form__place {
-        width: 20%;
+        width: 23%; 
+    }
+
+    .search-form__number {
+        width: 31%;
     }
 
     .search-form__title {
@@ -537,7 +538,7 @@
     }
 
     .search-form__number-btn {
-        right: 0px;
+        right: 10px;
     }
 
     .home-aside {
