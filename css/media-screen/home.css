@@ -1,4 +1,4 @@
-@media screen and (max-width:743px){
+@media screen and (max-width:499px) {
     .body {
         -ms-overflow-style: none; /* IE and Edge */ 
         scrollbar-width: none; /* Firefox */
@@ -11,7 +11,256 @@
         -webkit-appearance: none; 
     }
 
-    
+    .welcome-header {
+        padding: 0 var(--small-horizontal-space);
+        background-color: transparent;
+    }
+
+    .welcome-header__logo,
+    .welcome-header__list,
+    .welcome-header__settings {
+        display: none;
+    }
+
+    .welcome-header__mobile-btn {
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #f6f6f6;
+        border: none;
+        border-radius: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .mobile-header__icon--pink {
+        color: #ff3152;
+        margin-right: 10px;
+    }
+
+    .search-div {
+        display: none;
+    }
+
+    .home-aside {
+        padding: 0;
+        height: 160vw;
+    }
+
+    .home-aside__image {
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .home-aside__text {
+        display: none;
+    }
+
+    .home-aside::after {
+        content: "어디든 상관없이\A떠나고 싶을 때\A에어비앤비가 도와드립니다!";
+        white-space: pre;
+        color: white;
+        font-size: 24px;
+        position: absolute;
+        bottom: 140px;
+    }
+
+    .home-aside__btn {
+        width: 125px;
+        height: 50px;
+        bottom: 60px;
+        font-size: 16px;
+    }
+    .home-screen {
+        padding: 0 var(--small-horizontal-space);
+        overflow: hidden;
+    }
+
+    .home-screen__location {
+        margin: 10px 0 20px 0;
+    }
+
+    @keyframes slideLocation {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-63%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .home-location-content {
+        width: 230vw;
+        height: 73vw;
+    }
+
+    .home-location-content:hover{
+        animation: slideLocation 7s ease-in-out infinite;
+    }
+
+    .home-screen__title {
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 25px;
+    }
+
+    .home-location__name {
+        font-size: 25px;
+        padding: 20px 0 10px 15px;
+    }
+
+    .home-location__distance {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .home-experiment-content {
+        flex-direction: column;
+        height: 280vw;
+    }
+
+    .home-experiment-box {
+        width: 100%;
+        height: 49%;
+    }
+
+    .home-experiment__img {
+        object-fit: cover;
+    }
+
+    .home-experiment__text {
+        font-size: 25px;
+        top: 30px;
+        left: 30px;
+    }
+
+    .home-main__btn {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .home-experiment__btn {
+        top: 105px;
+        left: 30px;
+    }
+
+    .home-screen__qna {
+        margin: 30px 0;
+        height: 120vw;
+    }
+
+    .home-qna__img {
+        object-fit: cover;
+    }
+
+    .home-qna__title {
+        top: 30px;
+        left: 30px;
+        font-size: 25px;
+    }
+
+    .home-qna__btn {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .home-footer {
+        padding: 0 var(--small-horizontal-space);
+    }
+
+    .home-footer-list {
+        padding: 10px 0 0 0;
+        flex-direction: column;
+    }
+
+    .home-footer__section {
+        width: 100%;
+        padding: 30px 0 15px 0;
+        border-bottom: 1px solid var(--little-gray);
+    }
+
+    .home-footer__section:last-child {
+        border-bottom: none;
+    }
+
+    .home-footer__title {
+        margin-bottom: 15px;
+    }
+
+    .home-footer__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .home-footer__a {
+        word-break: keep-all;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .home-footer-inc {
+        flex-direction: column-reverse;
+        font-size: 15px;
+        align-items: flex-start;
+    }
+
+    .home-footer__right {
+        padding-bottom: 20px;
+    }
+
+    .home-footer-language__btn {
+        margin-left: 0;
+    }
+
+    .home-footer-language__text {
+        font-weight: 600;
+        padding-left: 5px;
+    }
+
+    .home-footer-icons {
+        display: none;
+    }
+
+    .home-footer-inc__left {
+        flex-direction: column;
+        align-items: flex-start;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .home-footer-title {
+        padding-bottom: 10px;
+    }
+
+    .home-footer-policy__item:first-child:before {
+        content: none;
+    }
+
+    .privacy-box {
+        display: none;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:743px){
+    .body {
+        -ms-overflow-style: none; /* IE and Edge */ 
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .body::-webkit-scrollbar{ 
+        display: none; width: 0; /* Remove scrollbar space */ 
+        height: 0; 
+        background: transparent; /* Optional: just make scrollbar invisible */ 
+        -webkit-appearance: none; 
+    }
+
     .welcome-header {
         padding: 0 var(--bigger-horizontal-space);
         background-color: transparent;
@@ -239,6 +488,10 @@
 
     .home-footer-policy__item:first-child:before {
         content: none;
+    }
+
+    .privacy-box {
+        display: none;
     }
 }
 

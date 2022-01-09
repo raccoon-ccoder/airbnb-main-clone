@@ -49,3 +49,8 @@ table {
 }
 
 /* Customizing */
+body {
+	word-break: keep-all;
+	line-break: strict;
+	-webkit-text-size-adjust: 100%;
+}

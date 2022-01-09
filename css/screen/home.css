@@ -3,18 +3,21 @@
 }
 
 .covid-alert {
-    width: 100%;
     height: 50px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 var(--bigger-horizontal-space);
 }
 
 .covid-alert__a {
+    display: block;
+    width: 100%;
     color: white;
     text-decoration: underline;
     font-size: 14px;
+    text-align: center;
 }
 
 .covid-alert__a:hover {
@@ -532,7 +535,6 @@
     padding: 0px var(--biggest-horizontal-spacehorizontal-space);
     position: fixed;
     bottom: 50px;
-    display: none;
 }
 
 .privacy {

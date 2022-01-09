@@ -1,5 +1,6 @@
 :root {
     --biggest-horizontal-space:75px;
-    --bigger-horizontal-space:35px;
+    --bigger-horizontal-space:30px;
+    --small-horizontal-space:24px;
     --little-gray: #cdcdce;
 }
