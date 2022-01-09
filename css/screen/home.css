@@ -117,6 +117,10 @@
     display: none;
 }
 
+.mobile-header__text {
+    color: black;
+}
+
 .search-div {
     background-color: black;
     display: flex;
@@ -519,6 +523,7 @@
     font-weight: 500;
     text-decoration: underline;
     padding-left: 5px;
+    color: black;
 }
 
 .home-footer-icons {
