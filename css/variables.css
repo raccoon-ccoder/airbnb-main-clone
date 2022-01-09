@@ -3,4 +3,5 @@
     --bigger-horizontal-space:30px;
     --small-horizontal-space:24px;
     --little-gray: #cdcdce;
+    --biggest-width:calc(1760px - (var(--biggest-horizontal-space)*2));
 }

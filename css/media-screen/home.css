@@ -848,3 +848,31 @@
         content: none;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .home-aside__text {
+        font-size: 48px;
+    }
+
+    .home-screen__title {
+        font-size: 43px;
+    }
+
+    .home-qna__title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width:1760px) {
+    /* 1760px 이상의 너비일 경우 max-width를 1760px로 고정시킨 후 padding 값을 늘려준다 */
+    .welcome-header,
+    .home-screen,
+    .home-aside,
+    .home-footer  {
+        padding: 0 calc( (100% - var(--biggest-width)) / 2);
+    }
+
+    .privacy-box {
+        margin: 0 calc( (100% - var(--biggest-width)) / 2);
+    }
+}

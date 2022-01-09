@@ -543,8 +543,6 @@
 }
 
 .privacy {
-    /* width: 100%; */
-    /* 있어도 되는지 모르겠다 */
     border-radius: 10px;
     background-color: white;
     box-shadow: 1px 5px 20px -5px #666666;
@@ -618,4 +616,18 @@
 
 .privacy-btn-box__button-black:hover {
     background-color: black;
+}
+
+@keyframes fadeOutButton {
+    0% {
+        transform: none;
+    }
+    100% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
+
+.privacy-box:focus-within {
+    animation: fadeOutButton 1s ease-in-out forwards;
 }
